@@ -12,12 +12,6 @@
 
 YApi 是<strong>高效</strong>、<strong>易用</strong>、<strong>功能强大</strong>的 api 管理平台，旨在为开发、产品、测试人员提供更优雅的接口管理服务。可以帮助开发者轻松创建、发布、维护 API，YApi 还为用户提供了优秀的交互体验，开发人员只需利用平台提供的接口数据写入工具以及简单的点击操作就可以实现接口的管理。
 
-**QQ交流群**:
-
-644642474 **主群可能已满**
-
-941802405 **群2欢迎加入**
-
 ### 特性
 *  基于 Json5 和 Mockjs 定义接口返回数据的结构和文档，效率提升多倍
 *  扁平化权限设计，即保证了大型企业级项目的管理，又保证了易用性
@@ -29,7 +23,7 @@ YApi 是<strong>高效</strong>、<strong>易用</strong>、<strong>功能强大
 
 ### 内网部署
 #### 环境要求
-* nodejs（7.6+)
+* nodejs（12.22.3)
 * mongodb（2.6+）
 * git
 #### 安装
@@ -94,36 +88,6 @@ YApi 是<strong>高效</strong>、<strong>易用</strong>、<strong>功能强大
 * [执行 postgres sql 的服务](https://github.com/shouldnotappearcalm/http-postgres-server)
 * [SpringBoot依赖自动生成YApi](https://github.com/NoBugBoy/YDoc)
 * [Yapi X 一键生成接口文档, 上传到yapi, rap2, eolinker等（IDEA插件）](https://github.com/jetplugins/yapix)
-
-### YApi 的一些客户
-* 去哪儿
-* 携程
-* 艺龙 
-* 美团
-* 百度
-* 腾讯
-* 阿里巴巴
-* 京东
-* 今日头条
-* 唯品支付 
-* 链家网
-* 快手
-* 便利蜂
-* 中商惠民
-* 新浪
-* VIPKID
-* 马蜂窝
-* 伴鱼
-* 旷视科技
-
-### Authors
-* [hellosean1025](https://github.com/hellosean1025)
-* [gaoxiaomumu](https://github.com/gaoxiaomumu)
-* [zwjamnsss](https://github.com/amnsss)
-* [dwb1994](https://github.com/dwb1994)
-* [fungezi](https://github.com/fungezi)
-* [ariesly15](https://github.com/ariesly15)
-
 
 ### License
 Apache License 2.0
