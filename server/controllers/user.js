@@ -735,7 +735,6 @@ class userController extends baseController {
    * @example
    */
   async add(ctx) {
-
     try {
       // 只有管理员可以创建
       if (this.getRole() !== 'admin') {
@@ -743,7 +742,8 @@ class userController extends baseController {
       }
 
       let userInst = yapi.getInst(userModel);
-      let params = ctx.request.body; //获取请求的参数,检查是否存在用户名和密码
+      //获取请求的参数,检查是否存在用户名和密码
+      let params = ctx.request.body;
 
       params = yapi.commons.handleParams(params, {
         username: 'string',
