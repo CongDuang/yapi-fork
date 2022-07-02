@@ -2,7 +2,7 @@
   "port": "8081",
   "adminAccount": "mashipeng@zhaoshang.net",
   "closeRegister": true,
-  "timeout":120000,
+  "timeout": 120000,
   "db": {
     "servername": "mongo",
     "DATABASE": "yapi",
@@ -17,7 +17,7 @@
     "from": "mashipeng@zhaoshang.net",
     "auth": {
       "user": "mashipeng@zhaoshang.net",
-      "pass": "jFYT65jNCx6D8JH9"
+      "pass": ""
     }
   }
 }
